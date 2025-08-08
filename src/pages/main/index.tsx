@@ -1,9 +1,13 @@
+import { AutoCenter } from '@/components'
+import { APP_NAME } from '@/constants'
 import styles from './index.module.less'
 
 export default function App() {
   return (
     <div className={styles.app}>
-      主页面
+			<AutoCenter>
+				主页面，{APP_NAME}
+			</AutoCenter>
     </div>
   )
 }
